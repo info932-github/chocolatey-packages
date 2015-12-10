@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>overdisk</id>
+    <title>OverDisk (Install)</title>
+    <version>0.11</version>
+    <authors>Elias Fontinis</authors>
+    <owners>Jeff Wise</owners>
+    <summary>Disk size overview tool</summary>
+    <description>Disk size overview tool 
+    </description>
+    <projectUrl>https://github.com/info932-github/chocolatey-packages/overdisk</projectUrl>
+    <packageSourceUrl>https://github.com/info932-github/chocolatey-packages/overdisk</packageSourceUrl>
+    <tags>overdisk admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/info932-github/chocolatey-packages/overdisk</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/overdisk.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
